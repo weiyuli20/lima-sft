@@ -15,10 +15,10 @@ import os
 from modelscope import snapshot_download
 
 # Directory where the model is saved
-LOCAL_MODEL_DIR = "./Qwen2.5-7B-Instruct"
+LOCAL_MODEL_DIR = "./Qwen2.5-3B"
 
 # Model ID on ModelScope
-MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
+MODEL_ID = "Qwen/Qwen2.5-3B"
 
 
 def download_model():
